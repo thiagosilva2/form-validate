@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <link rel="stylesheet" href="./assets/css/cadastro.css">
+  <title>Cadastro Ammarhes</title>
+</head>
+
+<body>
+  <main id="container">
+    <form id="login_form">
+      <!-- FORM HEADER -->
+      <div id="form_header">
+
+        <img id="header_logo" src="assets/img/ammarhes-light-removebg-preview.png" alt="">
+
+        <h1>Cadastre-se</h1>
+      </div>
+
+      <!-- INPUTS -->
+      <div id="inputs">
+        <!-- NAME -->
+        <div class="input-box">
+          <label for="name">
+            Nome completo
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" id="name" name="name">
+            </div>
+          </label>
+        </div>
+
+
+
+        <!-- EMAIL -->
+        <div class="input-box">
+          <label for="email">
+            E-mail
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" id="email" name="email">
+            </div>
+          </label>
+        </div>
+
+
+        <!-- PASSWORD -->
+        <div class="input-box">
+          <label for="password">
+            Senha
+            <div class="input-field">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" id="password" name="password">
+            </div>
+          </label>
+        </div>
+
+        <div class="input-box">
+          <label for="confirme_password">
+            Confirme a senha
+            <div class="input-field">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" id="confirme_password" name="confirme_password">
+            </div>
+          </label>
+        </div>
+
+      </div>
+
+      <!-- LOGIN BUTTON -->
+
+      <button type="submit" id="login_button">
+        CADASTRE-SE
+      </button>
+      <a href="index.html">Voltar</a>
+
+
+
+    </form>
+
+
+  </main>
+</body>
+
+</html>
